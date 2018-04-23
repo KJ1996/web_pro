@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<petrinet name="Untitled">
+  <page id="page0" name="page0">
+    <place id="id0" name="·(red1)" initialmarking="0" portdir="None">
+      <location x="110" y="168" />
+      <size width="50" height="30" />
+    </place>
+    <place id="id4" name="yellow1" initialmarking="0" portdir="None">
+      <location x="111" y="231" />
+      <size width="50" height="30" />
+    </place>
+    <place id="id7" name="green1" initialmarking="0" portdir="None">
+      <location x="112" y="293" />
+      <size width="50" height="30" />
+    </place>
+    <place id="id12" name="·" initialmarking="0" portdir="None">
+      <location x="286" y="234" />
+      <size width="50" height="30" />
+    </place>
+    <place id="id18" name="·(red2)" initialmarking="0" portdir="None">
+      <location x="459" y="171" />
+      <size width="50" height="30" />
+    </place>
+    <place id="id19" name="yellow2" initialmarking="0" portdir="None">
+      <location x="461" y="232" />
+      <size width="50" height="30" />
+    </place>
+    <place id="id20" name="green2" initialmarking="0" portdir="None">
+      <location x="464" y="293" />
+      <size width="50" height="30" />
+    </place>
+    <place id="id14" name="" initialmarking="0" portdir="None">
+      <location x="283" y="169" />
+      <size width="50" height="30" />
+    </place>
+    <transition id="id1" name="yr1" portdir="None">
+      <location x="188" y="168" />
+      <size width="50" height="20" />
+    </transition>
+    <transition id="id3" name="rg1" portdir="None">
+      <location x="190" y="232" />
+      <size width="50" height="20" />
+    </transition>
+    <transition id="id8" name="t8" portdir="None">
+      <location x="193" y="294" />
+      <size width="50" height="20" />
+    </transition>
+    <transition id="id15" name="yr2" portdir="None">
+      <location x="375" y="170" />
+      <size width="50" height="20" />
+    </transition>
+    <transition id="id16" name="rg2" portdir="None">
+      <location x="375" y="233" />
+      <size width="50" height="20" />
+    </transition>
+    <transition id="id17" name="gy2" portdir="None">
+      <location x="378" y="291" />
+      <size width="50" height="20" />
+    </transition>
+    <arc id="id2" source="id1" target="id0" delay="0" weight="1">
+      <points>
+        <point x="163" y="168" />
+        <point x="135" y="168" />
+      </points>
+    </arc>
+    <arc id="id5" source="id4" target="id1" delay="0" weight="1">
+      <points>
+        <point x="130" y="222" />
+        <point x="163" y="178" />
+      </points>
+    </arc>
+    <arc id="id6" source="id0" target="id3" delay="0" weight="1">
+      <points>
+        <point x="129" y="177" />
+        <point x="165" y="222" />
+      </points>
+    </arc>
+    <arc id="id9" source="id7" target="id8" delay="0" weight="1">
+      <points>
+        <point x="136" y="293" />
+        <point x="168" y="293" />
+      </points>
+    </arc>
+    <arc id="id10" source="id3" target="id7" delay="0" weight="1">
+      <points>
+        <point x="165" y="242" />
+        <point x="130" y="283" />
+      </points>
+    </arc>
+    <arc id="id11" source="id8" target="id4" delay="0" weight="1">
+      <points>
+        <point x="168" y="284" />
+        <point x="129" y="241" />
+      </points>
+    </arc>
+    <arc id="id13" source="id12" target="id3" delay="0" weight="1">
+      <points>
+        <point x="262" y="234" />
+        <point x="215" y="234" />
+      </points>
+    </arc>
+    <arc id="id22" source="id15" target="id12" delay="0" weight="1">
+      <points>
+        <point x="350" y="180" />
+        <point x="305" y="225" />
+      </points>
+    </arc>
+    <arc id="id23" source="id15" target="id18" delay="0" weight="1">
+      <points>
+        <point x="400" y="171" />
+        <point x="434" y="171" />
+      </points>
+    </arc>
+    <arc id="id24" source="id19" target="id15" delay="0" weight="1">
+      <points>
+        <point x="441" y="224" />
+        <point x="400" y="180" />
+      </points>
+    </arc>
+    <arc id="id25" source="id18" target="id16" delay="0" weight="1">
+      <points>
+        <point x="439" y="179" />
+        <point x="400" y="223" />
+      </points>
+    </arc>
+    <arc id="id26" source="id16" target="id20" delay="0" weight="1">
+      <points>
+        <point x="400" y="243" />
+        <point x="445" y="284" />
+      </points>
+    </arc>
+    <arc id="id27" source="id17" target="id19" delay="0" weight="1">
+      <points>
+        <point x="403" y="281" />
+        <point x="442" y="241" />
+      </points>
+    </arc>
+    <arc id="id28" source="id20" target="id17" delay="0" weight="1">
+      <points>
+        <point x="440" y="293" />
+        <point x="403" y="293" />
+      </points>
+    </arc>
+    <arc id="id29" source="id1" target="id14" delay="0" weight="1">
+      <points>
+        <point x="213" y="169" />
+        <point x="258" y="169" />
+      </points>
+    </arc>
+    <arc id="id30" source="id14" target="id16" delay="0" weight="1">
+      <points>
+        <point x="303" y="177" />
+        <point x="350" y="223" />
+      </points>
+    </arc>
+  </page>
+</petrinet>
