@@ -1,4 +1,4 @@
-
+# льйБеп╤о
 class CheckIsLegal:
 
     def check_for_length(self, str):
